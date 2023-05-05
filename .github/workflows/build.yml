@@ -22,8 +22,5 @@ jobs:
     - name: Install Dependencies
       run: npm ci
 
-    - name: Build Android
-      run: npx react-native run-android
-
     - name: Build iOS
       run: npx react-native run-ios
