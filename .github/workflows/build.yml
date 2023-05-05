@@ -22,5 +22,5 @@ jobs:
     - name: Install Dependencies
       run: npm ci
 
-    - name: Build iOS
-      run: npx react-native run-ios
+    - name: Install Expo CLI
+      run: npm install -g expo-cli
